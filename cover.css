@@ -15,11 +15,11 @@ body {
   position: relative;
   display: table;
   width: 100%;
-  height: 75%; /* For at least Firefox */
-  min-height: 75%;
+  height: 25%; /* For at least Firefox */
+  min-height: 25%;
 }
 .site-wrapper-inner {
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.5);
   display: table-cell;
   vertical-align: top; 
 }
@@ -32,12 +32,12 @@ body {
 
 /*font file*/
 @font-face {
-  font-family: Bebas Neue;
-  src: url("fonts/BebasNeueRegular.otf") format("opentype");
+  font-family: Bebas Neue Bold;
+  src: url("fonts/BebasNeueBold.otf") format("opentype");
 }
 
 .title {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue Bold";
   color: white;
   font-size: 100px;
   margin-top: 0px;
@@ -45,5 +45,5 @@ body {
 }
 
 #colored {
-  color: yellow;
+  color: #FCCF00;
 }

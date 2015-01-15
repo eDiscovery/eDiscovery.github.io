@@ -18,3 +18,11 @@ body {
   font-size: 25px;
   background-color: #FCCF00;
 }
+
+.navbar-default .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}

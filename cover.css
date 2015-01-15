@@ -47,3 +47,11 @@ body {
 #colored {
   color: #FCCF00;
 }
+
+.subtitle {
+  font-family: "Bebas Neue Bold";
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

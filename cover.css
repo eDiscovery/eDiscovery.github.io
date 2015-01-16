@@ -15,8 +15,8 @@ body {
   position: relative;
   display: table;
   width: 100%;
-  height: 25%; /* For at least Firefox */
-  min-height: 25%;
+  height: 75%; /* For at least Firefox */
+  min-height: 75%;
 }
 .site-wrapper-inner {
   background-color:rgba(0,0,0,0.5);

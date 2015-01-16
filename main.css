@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Bebas Neue Bold;
+  src: url("fonts/BebasNeueBold.otf") format("opentype");
+}
+
+.heading {
+  font-family: "Bebas Neue Bold";
+  color: #00B2EE;
+  font-size: 75px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family: Bebas Neue Book;
+  src: url("fonts/BebasNeueBook.otf") format("opentype");
+}
+
+.subheading {
+  font-family: "Bebas Neue Book";
+  color: black;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 10px;
+}

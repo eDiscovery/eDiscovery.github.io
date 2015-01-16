@@ -48,10 +48,36 @@ body {
   color: #FCCF00;
 }
 
+@font-face {
+  font-family: Bebas Neue Book;
+  src: url("fonts/BebasNeueBook.otf") format("opentype");
+}
+
 .subtitle {
-  font-family: "Bebas Neue Bold";
+  font-family: "Bebas Neue Book";
   color: white;
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/* unvisited link */
+#olin:link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* visited link */
+#olin:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+#olin:hover {
+    color: #00B2EE;
+}
+
+/* selected link */
+#olin:active {
+    color: #00B2EE;
 }

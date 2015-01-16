@@ -1,26 +1,31 @@
 body {
-  min-height: 2000px;
+  min-height: 250%;
 }
 
 /*font file*/
 @font-face {
-  font-family: Bebas Neue Bold;
-  src: url("fonts/BebasNeueBold.otf") format("opentype");
-}
-
-.navbar-brand {
-	font-size: 25px;
+  font-family: Bebas Neue Light;
+  src: url("fonts/BebasNeueLight.otf") format("opentype");
 }
 
 .navbar-static-top {
   margin-bottom: 0px;
-  font-family: "Bebas Neue Bold";
+  font-family: "Bebas Neue Light";
   font-size: 25px;
   background-color: #FCCF00;
   border-color: #FCCF00;
+  font-weight: 200;
 }
 
 .navbar-default .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:visited{
   color: #ffffff;
 }
 
@@ -31,5 +36,13 @@ body {
 .logo-nav{
   display:block;
   text-align: center;
-  width: 100%;
+  margin-left:20%;
+  margin-right:20%;
+  height: 50px;
+  width: 50px;
+}
+
+#name {
+  font-size: 40px;
+  margin-top:15%;
 }

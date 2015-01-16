@@ -64,20 +64,23 @@ body {
 /* unvisited link */
 #olin:link {
     color: #ffffff;
-    text-decoration: underline;
+    font-family: "Bebas Neue Bold"
 }
 
 /* visited link */
 #olin:visited {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* mouse over link */
 #olin:hover {
-    color: #00B2EE;
+    color: #FF4CE1;
+    text-decoration: none;
 }
 
 /* selected link */
 #olin:active {
-    color: #00B2EE;
+    color: #FF4CE1;
+    text-decoration: none;
 }

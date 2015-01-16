@@ -38,7 +38,23 @@
   width: 50px;
 }
 
+@font-face {
+  font-family: Bebas Neue Bold;
+  src: url("fonts/BebasNeueBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Bebas Neue Book;
+  src: url("fonts/BebasNeueBook.otf") format("opentype");
+}
+
 #name {
+  font-family: "Bebas Neue Bold";
   font-size: 40px;
   margin-top:15%;
+}
+
+#e {
+  color:black;
+  font-family: "Bebas Neue Book";
 }

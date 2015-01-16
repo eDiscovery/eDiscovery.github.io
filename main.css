@@ -14,16 +14,32 @@
 }
 
 @font-face {
-  font-family: Bebas Neue Book;
-  src: url("fonts/BebasNeueBook.otf") format("opentype");
+  font-family: Wisdom;
+  src: url("fonts/WisdomScript.otf") format("opentype");
 }
 
 .subheading {
-  font-family: "Bebas Neue Book";
+  font-family: "Wisdom";
   color: black;
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: left;
   margin-left: 10px;
+}
+
+.emailinfo {
+  font-family: "Bebas Neue Book";
+  text-align: left;
+  color: black;
+  margin-left: 50px;
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+#email {
+  font-family: "Bebas Neue Bold";
+  text-align: left;
+  color: #FCCF00;
+  font-size: 40px;
 }

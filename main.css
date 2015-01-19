@@ -28,6 +28,14 @@
   margin-left: 10px;
 }
 
+.buttons {
+  height: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .emailinfo {
   font-family: "Bebas Neue Book";
   text-align: left;

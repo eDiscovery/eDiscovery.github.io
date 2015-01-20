@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+
 @font-face {
   font-family: Bebas Neue Bold;
   src: url("fonts/BebasNeueBold.otf") format("opentype");
@@ -8,10 +10,15 @@
   src: url("fonts/BebasNeueRegular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: Bebas Neue Book;
+  src: url("fonts/BebasNeueBook.otf") format("opentype");
+}
+
 .heading {
   font-family: "Bebas Neue Bold";
   color: #00B2EE;
-  font-size: 75px;
+  font-size: 125px;
   margin-top: 10px;
   margin-bottom: 0px;
   text-align: center;
@@ -23,10 +30,11 @@
 }
 
 .subheading {
-  font-family: "Wisdom";
-  color: black;
+  font-family: "Droid Serif";
+  font-style: italic;
+  color: #555555;
   font-size: 30px;
-  margin-top: 0px;
+  margin-top: -25px;
   margin-bottom: 0px;
   text-align: center;
 }
@@ -40,12 +48,23 @@
 }
 
 .caption {
-  font-family: "Bebas Neue Regular";
+  font-family: "Bebas Neue Book";
+  color:black;
   font-size: 30px;
+  width: 50%;
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 50px;
   line-height: 110%
+}
+
+#comingsoon {
+  font-family: "Bebas Neue Book";
+  color: black;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .emailinfo {

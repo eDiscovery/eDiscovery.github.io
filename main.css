@@ -3,14 +3,18 @@
   src: url("fonts/BebasNeueBold.otf") format("opentype");
 }
 
+@font-face {
+  font-family: Bebas Neue Regular;
+  src: url("fonts/BebasNeueRegular.otf") format("opentype");
+}
+
 .heading {
   font-family: "Bebas Neue Bold";
   color: #00B2EE;
   font-size: 75px;
   margin-top: 10px;
   margin-bottom: 0px;
-  text-align: left;
-  margin-left: 10px;
+  text-align: center;
 }
 
 @font-face {
@@ -24,30 +28,37 @@
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-align: left;
-  margin-left: 10px;
+  text-align: center;
 }
 
 .buttons {
-  height: 40%;
+  width: 50%;
+  margin-bottom: 25px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.caption {
+  font-family: "Bebas Neue Regular";
+  font-size: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  line-height: 110%
 }
 
 .emailinfo {
   font-family: "Bebas Neue Book";
-  text-align: left;
+  text-align: center;
   color: black;
-  margin-left: 50px;
   font-size: 40px;
   margin-top: 25px;
 }
 
 #email {
   font-family: "Bebas Neue Bold";
-  text-align: left;
+  text-align: center;
   color: #FCCF00;
   font-size: 40px;
 }

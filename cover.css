@@ -13,10 +13,11 @@ body {
   background: url("images/cover.jpg") center;
   background-size: cover;
   position: relative;
+  margin-top: -70px;
   display: table;
   width: 100%;
-  height: 75%; /* For at least Firefox */
-  min-height: 75%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
 }
 .site-wrapper-inner {
   background-color:rgba(0,0,0,0.5);

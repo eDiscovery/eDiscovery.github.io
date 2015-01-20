@@ -8,13 +8,27 @@
     <link href="cover.css" rel="stylesheet">
     <link href="nav.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+  <!-- Include jQuery -->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <!-- jQuery stuff --> 
+    <script type = 'text/javascript'>
+    //Smooth scrolling to different sections of the website
+    $(document).ready(function(){
+      $('a').click(function(){
+          $('html, body').animate({
+              scrollTop: $( $(this).attr('href') ).offset().top
+          }, 500);
+          return false;
+      });
+    });
+    </script>
 </head>
 
 <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#" id="name"><span id="e">E</span>Discovery!</a>
+          <a class="navbar-brand" href="#home" id="name"><span id="e">E</span>Discovery!</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -27,7 +41,7 @@
     </nav>
 
 <body>
-    <div class="site-wrapper">
+    <div class="site-wrapper" id="#home">
       <div class="site-wrapper-inner">
         <div class="inner cover">
         	<h1 class="title">Engineering Discovery,</h1>

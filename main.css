@@ -58,15 +58,37 @@
   line-height: 110%
 }
 
-.activity {
+#ActList {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.image {
   margin-top: 20px;
   height: 300px;
   width: 300px;
+  margin-bottom: 60px;
 }
 
-.activity:hover {
-  opacity:0.50;
-  filter:alpha(opacity=50);
+.activity:hover .image {
+  opacity:0.40;
+  filter:alpha(opacity=40);
+}
+
+.activity:hover .description {
+  visibility: visible !important;
+}
+
+.description {
+  position: relative;
+  font-family: "Bebas Neue Bold";
+  color: black;
+  font-size: 35px;
+  visibility: hidden;
+  margin-top: -100px;
+  z-index: 10;
 }
 
 .emailinfo {

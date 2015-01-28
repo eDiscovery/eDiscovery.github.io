@@ -58,13 +58,15 @@
   line-height: 110%
 }
 
-#comingsoon {
-  font-family: "Bebas Neue Book";
-  color: black;
-  font-size: 50px;
-  margin-top: 25px;
-  margin-bottom: 100px;
-  text-align: center;
+.activity {
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.activity:hover {
+  opacity:0.50;
+  filter:alpha(opacity=50);
 }
 
 .emailinfo {

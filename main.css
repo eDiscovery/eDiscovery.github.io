@@ -59,26 +59,38 @@
 }
 
 #ActList {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-
-
 
 .image {
-  margin-top: 20px;
   height: 300px;
   width: 300px;
-  margin-bottom: 60px;
 }
 
-.activity:hover .image {
+.activity {
+  display: inline-block;
+  border-right:0;
+}
+
+#block {
+  width: 100%;
+  height: 10px;
+}
+
+.activity .image {
   opacity:0.40;
   filter:alpha(opacity=40);
 }
 
+.activity:hover .image {
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+
 .activity:hover .description {
-  visibility: visible !important;
+  color:#FF4CE1;
 }
 
 .description {
@@ -86,8 +98,6 @@
   font-family: "Bebas Neue Bold";
   color: black;
   font-size: 35px;
-  visibility: hidden;
-  margin-top: -100px;
   z-index: 10;
 }
 

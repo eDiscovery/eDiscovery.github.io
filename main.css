@@ -79,14 +79,9 @@
   height: 10px;
 }
 
-.activity .image {
+.activity:hover .image {
   opacity:0.40;
   filter:alpha(opacity=40);
-}
-
-.activity:hover .image {
-  opacity:1.0;
-  filter:alpha(opacity=100);
 }
 
 .activity:hover .description {
